@@ -78,7 +78,8 @@
       "metadata": {
         "id": "jo1MX7w95nNZ",
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "fe68578e-fcaf-4adb-97cc-7bb171031388"
       },
@@ -321,7 +322,8 @@
       "metadata": {
         "id": "b-fD0Qbt5nNZ",
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "3ab30ca9-f87f-4583-f29c-76f9f7c4d4d8"
       },
@@ -347,7 +349,8 @@
       "metadata": {
         "id": "1Mhe_zJX5nNZ",
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "e1a11cf7-08c6-403b-f306-219027089634"
       },
@@ -434,7 +437,8 @@
       "metadata": {
         "id": "7bVCZ9Bp5nNa",
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "8f6089d7-487f-411f-e449-fefd8003cbb7"
       },
@@ -571,7 +575,8 @@
       "metadata": {
         "id": "YYxTFaI35nNb",
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "8b21dbaa-03e8-45ba-bf82-aafa84403e2b"
       },
@@ -605,7 +610,8 @@
       "metadata": {
         "id": "0z-4m1Wd5nNb",
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "e7b99140-3540-4bde-906b-7d64e9fa284c"
       },
@@ -733,7 +739,8 @@
       "metadata": {
         "id": "vNYeLPZ55nNb",
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "4db46dfd-6ecc-4c27-a22c-dc1eddca300c"
       },
@@ -853,7 +860,7 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 1066
         },
         "id": "_pM6HqR6IcqD",
         "outputId": "c5d47273-923e-405f-ebb9-288d2f1c6b35"
@@ -912,7 +919,8 @@
       ],
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "id": "Si827RtbI_qM",
         "outputId": "7f826163-996a-443f-a4b9-3daced67ecb4"
@@ -1027,7 +1035,7 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 1066
         },
         "id": "s5OC8IHqLU8f",
         "outputId": "a1e17778-7ff8-4df3-a760-e044fe1fce74"
@@ -1077,7 +1085,8 @@
       ],
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "id": "Ahlymdvd1J51",
         "outputId": "fbc92cf7-3af4-468a-93d7-e7bcec228a65"
@@ -1183,7 +1192,7 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 1066
         },
         "outputId": "0918d510-658e-45d5-8f93-a1572e891a32",
         "id": "jkaTHEyK1rTM"
@@ -1233,7 +1242,8 @@
       ],
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "8d4e2ecc-d0f5-41d6-bfba-68336b440c2e",
         "id": "NnvOJna_35Jb"
@@ -1330,7 +1340,7 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 1066
         },
         "outputId": "beef83a6-59b3-44da-9bd5-03c592c50b36",
         "id": "4kYHAFPL4hBE"
@@ -1380,7 +1390,8 @@
       ],
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "28ccb5eb-6050-4298-caa2-1274966e75fe",
         "id": "O6SGhG9b4tNk"
@@ -1412,6 +1423,15 @@
       },
       "execution_count": 97,
       "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Using the tahn function instead of relu slightly improved accuracy and loss, but still had issues with overfitting to the training data."
+      ],
+      "metadata": {
+        "id": "7goVnkt3GTnJ"
+      }
     },
     {
       "cell_type": "markdown",
@@ -1481,7 +1501,7 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 1066
         },
         "outputId": "8e9a9933-06fb-41da-d978-5dd74e613eb3",
         "id": "eX8kcuQ5-pBg"
@@ -1531,7 +1551,8 @@
       ],
       "metadata": {
         "colab": {
-          "base_uri": "https://localhost:8080/"
+          "base_uri": "https://localhost:8080/",
+          "height": 0
         },
         "outputId": "45f605ac-6ec2-4cb2-b92b-3b2d4ea4089a",
         "id": "-MqNBWw1_QY3"
@@ -1663,7 +1684,7 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 1000
+          "height": 2710
         },
         "id": "fDN2UXa-65oX",
         "outputId": "def230f1-9e08-4e3a-9dc2-4c2297e20049"
